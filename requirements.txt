@@ -3,7 +3,9 @@ fastapi
 pydantic
 aiogram
 python-dotenv
+alembic
 asyncpg
+asyncio
 psycopg2-binary
 uvicorn
 sqlalchemy

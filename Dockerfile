@@ -13,4 +13,5 @@ COPY . .
 # Указываем порт для FastAPI
 EXPOSE 8000
 
-CMD ["sh", "-c", "uvicorn app.api.main:app --host 0.0.0.0 --port 8000 & python bot/main.py"]
+# Указываем команду для запуска бота
+CMD ["python", "bot/main.py"]
