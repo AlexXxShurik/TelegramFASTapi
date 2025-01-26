@@ -47,7 +47,7 @@ cd your-repository
 
 .env:
 
-SANDBOX_API_TOKEN=your_any_token_for_this_api
+SANDBOX_API_TOKEN=your_any_token_for_this_api \n
 LIVE_API_TOKEN=your_api_token_for_imeicheck
 BOT_TOKEN=your_telegram_bot_token
 POSTGRES_USER=your_postgres_user
