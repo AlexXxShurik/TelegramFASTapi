@@ -14,7 +14,7 @@ from app.db.crud import get_all_white_list_users
 from app.db.session import get_db
 
 load_dotenv()
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN") 
 
 
 class TelegramBot:
